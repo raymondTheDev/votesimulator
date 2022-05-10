@@ -1,5 +1,5 @@
 
-# Vite Simulator
+# Vote Simulator
 
 What the heck is this!? Saw a post on Reddit then saw a post on Twitter which talks about some interesting numbers. I just happened to remember some things happened on similar projects I've worked on so decided to play around a bit
 
