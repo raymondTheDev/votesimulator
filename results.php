@@ -39,6 +39,14 @@
                     I tried playing around with other functions like rand(), random_int(), and some custom coded functions, mixing and matching,
                     but still generates similar results. Other programming languages such as Python, Java, Ruby, etc has their own implementation of Mersenne Twister
                 </p>
+                <p>
+                    <b>Expected Result:</b> Even though there is a set dynamic chance on distributing the votes for specific candidates
+                    the mt_random() function should help with randomly distributing it.
+                </p>
+                <p>
+                    <b>Actual Result:</b> The pseudo-random number generator isn't cryptic enough
+                    to generate true-random values, so instead it just created a pattern
+                </p>
             </div>
         </div>
     </div>

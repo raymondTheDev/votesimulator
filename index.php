@@ -117,6 +117,9 @@
             <button type="button" class="btn btn-primary" onclick="loadResults();">
                 Click here to process the votes!
             </button>
+            <button type="button" class="btn btn-primary" onclick="addVotes(100000);">
+                Add 100,000 Votes
+            </button>
         </div>
         <!-- Jumbotron -->
         <!--Section: Content-->
@@ -170,6 +173,12 @@
             }
 
         });
+    }
+
+    function addVotes(votesToAdd){
+        let voteCount = parseInt($('#votes-input').val()) + votesToAdd;
+        $('#votes-input').val(voteCount);
+        loadResults();
     }
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
