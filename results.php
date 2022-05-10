@@ -30,7 +30,7 @@
 
                 <h5 class="card-title">Explanation:</h5>
                 <p class="card-text">
-                    The results, even using different number of votes, generates similar results. The was processed by distributing votes using the mt_rand() function, which is a mathematical function from the PHP Programming Language.
+                    The results, even using different number of votes, generates similar results. This was processed by distributing votes using the mt_rand() function, which is a mathematical function from the PHP Programming Language.
                     Basically what it does is that it generates random numbers then the system decides where to cast the vote based on a set chance.
                     The problem with this is it most likely creates a pattern if you process big numbers on it which generates similar results which means the "random" number is not genuine.
                     <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.85.2732&rep=rep1&type=pdf" target="_blank">More info about Mersenne Twister here</a>
